@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天亚科创官方网站</title>
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/baidu_zhuanye.css" />
+    <script src="/js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="part_1">
+        <%= require('html-loader!../common/header.html') %>
+        <div class="content">
+            百度竞价助手专业版
+            <br>
+            <a href="http://home.cloud.ranknowcn.com/popularize/product_open?product_type=baidu">
+                <span class="download_btn">申请试用</span>
+            </a>
+        </div>
+    </div>
+    <div class="part_2">
+        <p>产品概述</p>
+        <div>
+            百度竞价专业版是Ranknow天亚科创团队开发的一款专门面向百度搜索引擎的竞价推广工具，使用专业的排名计算方式，
+            可以自动据您的关键字信息以及出价信息综合计算,获得适合您的经济实惠的排名方案，
+            使您在保证推广效果的同时，花费更少的费用。同时具有批量调价、循环调词、查看推广实况、数据导出、定时关机、监控文件夹等多项方便客户的强大的功能。
+        </div>
+        <%= require('html-loader!../common/online_customer_content.html') %>
+    </div>
+    <%= require('html-loader!../common/footer.html') %>
+<script>
+    $(document).ready(function(){
+    });
+</script>
+</body>
+</html>

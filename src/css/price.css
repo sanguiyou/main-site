@@ -1,0 +1,154 @@
+
+
+.part_1{
+    background: url("/img/bg-top-buy@3x.png");
+    background-repeat:no-repeat;
+    background-size: 100% 560px;
+    background-position:center;
+    height: 560px;
+}
+
+.part_2{
+    padding: 0px 15%;
+}
+.price_list {
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin-bottom: 20px;
+}
+.price_list .bg:hover{
+    background: white;
+}
+.price_list .bg{
+    background: #FFF9F4;
+    margin: 0px 5px;
+}
+.price_list >div p:nth-child(1){
+    text-align: center;
+    font-size: 36px;
+    color: #17242a;
+    padding-top: 67px;
+    padding-bottom: 52px;
+}
+.price_list >div p:nth-child(2){
+    text-align: center;
+}
+.price_list >div p:nth-child(2) span:first-child{
+    font-size: 72px;
+    color: #17242a;
+}
+.price_list >div p:nth-child(2) span:last-child{
+    font-size: 24px;
+    color: #17242a;
+}
+.price_list >div p:nth-child(3){
+    margin-right: 20%;
+    text-align: right;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+.price_list >div p:nth-child(4){
+    padding: 69px 30px 0px 30px;
+    text-align: center;
+}
+.price_list >div p:nth-child(4) > span{
+    display: inline-block;
+    width: 260px;
+    text-align: left;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.price_list >div p:nth-child(5){
+    padding-top: 40px;
+    text-align: center;
+}
+.buy_btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #fe5551;
+    color: #fe5551;
+}
+.buy_btn:hover{
+    background: url("/img/an-download-red-copy@3x.png");
+    background-size: 170px 45px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    padding:0px ;
+    border: 0px;
+}
+.part_2_title{
+    margin-top: 44px;
+    text-align: center;
+    font-size: 36px;
+}
+.line{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.download_btn{
+    background: url("/img/an-download-red-copy@3x.png");
+    background-size: 170px 45px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+.price_list > div{
+    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.06);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.06);
+    height: 518px;
+    margin: 0px 10px;
+}
+.detail_doc{
+    clear: both;
+    margin-top: 20px;
+    background: #ffb689;
+    height: 124px;
+    line-height: 124px;
+    text-align: center;
+}
+.detail_doc span:first-child{
+    font-size: 36px;
+    color: white;
+    margin-right: 9%;
+}
+.detail_doc span:last-child{
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.download_span_btn{
+    color: #f65378;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    border:1px solid #f65378;
+}
+.download_btn{
+    background: url("/img/an-download-red@3x.png");
+    background-size: 170px 45px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+}
+
+
+

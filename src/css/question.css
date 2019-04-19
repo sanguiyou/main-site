@@ -1,0 +1,41 @@
+
+.part_1{
+    background: url("/img/bg-top-help@2x.png");
+    background-repeat:no-repeat;
+    background-size: 100% 560px;
+    background-position:center;
+    height: 560px;
+}
+
+.part_2{
+    padding: 0px 15%;
+}
+.part_2_title{
+    margin-top: 44px;
+    text-align: center;
+    font-size: 36px;
+}
+.line-1-us{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.part_3{
+    clear: both;
+    padding: 0px 22%;
+    padding-bottom: 40px;
+}
+.part_3_title{
+    background: #d5eef3;
+    font-size: 24px;
+    padding: 0px 5%;
+    height: 70px;
+    line-height: 70px;
+}
+.part_3_answer{
+    font-size: 18px;
+    padding: 15px 5%;
+    color: #4a4a4a;
+}
+
+
+

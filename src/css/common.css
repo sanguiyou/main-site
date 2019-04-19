@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.product_service a{
+    color: black;
+}
+.product_service{
+    position: absolute;
+    top:30px;
+    left: 25%;
+    background: white;
+    width: 700px;
+    color: black;
+    padding: 10px;
+    padding-bottom: 50px;
+    -moz-box-shadow:0px 7px 4px #949494; -webkit-box-shadow:0px 7px 4px #949494; box-shadow:0px 7px 4px #949494;
+    display: none;
+}
+.product_service >div{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.product_service >div >div {
+    font-size: 18px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: #4f8aeb;
+}
+.product_service >div p{
+    font-size: 14px;
+    padding: 5px;
+    color: #4a4a4a;
+    text-align: left;
+    padding-left: 35px;
+}
+.product_service >div p:hover{
+    background: #bfbcbc;
+}
+
+
+
+.part_1 .title{
+    margin:0px 5% 0px 10%;
+    padding-top:25px;
+}
+.part_1 .title span{
+    float: left;
+    width:8%;
+    font-size: 16px;
+    font-family: PingFangSC-Light;
+    box-sizing: border-box;
+    text-align: center;
+}
+.part_1 .title span:first-child{
+    width:18%;
+}
+
+.part_1 .title .title_span{
+    color: white;
+}
+.part_1 .title .title_span_login{
+    background: url("/img/bg-an-download-s@3x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 20px;
+    display: inline-block;
+    margin-right: 1%;
+    width: 12%;
+    position: relative;
+    top:-13px;
+}
+.part_1 .title .title_span_regist{
+    color: #302FA2;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 2px 6px;
+    text-align: center;
+    border-radius: 5px;
+    width:10%;
+    position: relative;
+    top:-2px;
+}
+.part_1 .content{
+    clear: both;
+    color: white;
+    margin-top: 243px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.part_7{
+    clear: both;
+    padding-left: 10%;
+    padding-right: 15%;
+    height: 700px;
+    background-color: #D6EEF5;
+    position: relative;
+}
+.part_7 div{
+    float: left;
+}
+.part_7_1{
+    width: 30%;
+    position: relative;
+    padding-top: 139px;
+    height: 561px;
+}
+.part_7_1 span{
+    position: absolute;
+    bottom: 20px;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+.part_7_1_1{
+    margin-bottom: 24px;
+}
+.part_7_1_2{
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+.part_7_1_3{
+    color: #4A4A4A;
+    font-size: 18px;
+}
+.part_7_2,.part_7_3{
+    width: 25%;
+    padding-top: 192px;
+    text-align: left;
+    height: 508px;
+}
+.part_7_2 > p,.part_7_3 > p{
+    font-size: 24px;
+    color: #4A4A4A;
+    margin-bottom: 13px;
+}
+.part_7_2 div,.part_7_3 div{
+    width: 100%;
+}
+.part_7_2 div > p,.part_7_3 div > p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.download_btn{
+    background: url("/img/an-download-red@3x.png");
+    background-size: 170px 45px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+}
+

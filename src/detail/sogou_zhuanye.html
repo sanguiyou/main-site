@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天亚科创官方网站</title>
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/baidu_zhuanye.css" />
+    <script src="/js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="part_1">
+        <%= require('html-loader!../common/header.html') %>
+        <div class="content">
+            搜狗竞价助手专业版
+            <br>
+            <a target="_blank" href="http://home.cloud.ranknowcn.com/popularize/product_open?product_type=sogou">
+                <span class="download_btn">申请试用</span>
+            </a>
+        </div>
+    </div>
+    <div class="part_2">
+        <p>产品概述</p>
+        <div>
+            搜狗竞价专业版是Ranknow天亚科创团队开发的一款专门面向搜狗搜索引擎的竞价推广工具，操作方便，可以减少运营人员对软件的学习成本。帮助用户快速管理大量关键词，实现智能循环出价，降低推广预算的无效浪费。
+        </div>
+        <%= require('html-loader!../common/online_customer_content.html') %>
+    </div>
+    <%= require('html-loader!../common/footer.html') %>
+<script>
+    $(document).ready(function(){
+    });
+</script>
+</body>
+</html>

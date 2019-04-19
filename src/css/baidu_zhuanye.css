@@ -1,0 +1,52 @@
+.part_1{
+    background: url("/img/bg-top-p-bdyjj.png");
+    background-repeat:no-repeat;
+    background-size: 100% 560px;
+    background-position:center;
+    height: 560px;
+}
+.part_2{
+    width: 800px;
+    margin:30px auto;
+    margin-bottom:200px
+}
+.part_2 p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px
+}
+.part_2 > div{
+    font-size: 14px;
+    line-height: 25px;
+    color: #4a4a4a
+}
+.part_3{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid gray;
+    margin-top: 80px;
+}
+
+.online_customer{
+    position: relative;
+    padding-top:130px ;
+    text-align: center;
+}
+.online_customer .third_span{
+    color: #E0E0E0;
+    font-size: 64px;
+    display: inline-block;
+    top: 280px;
+    left: 33%;
+}
+.online_customer span:last-child{
+    background-color: #FFB689;
+    padding: 10px 90px;
+    color: white;
+    font-size: 36px;
+    top: 345px;
+    display: inline-block;
+    z-index: 101;
+    border-radius: 10px;
+}

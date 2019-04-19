@@ -1,0 +1,30 @@
+
+
+.part_1{
+    background: url("/img/bg-top-buy@3x.png");
+    background-repeat:no-repeat;
+    background-size: 100% 560px;
+    background-position:center;
+    height: 560px;
+}
+
+.part_2{
+    width: 800px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table
+{
+    border-collapse:collapse;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+}
+table tr td:first-child{
+    font-size: 24px;
+}
+
+
+
