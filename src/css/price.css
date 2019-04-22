@@ -1,11 +1,11 @@
 
 
 .part_1{
-    background: url("/img/bg-top-buy@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/bg-top-buy@3x.jpg");
     background-repeat:no-repeat;
     background-size: 100% 560px;
     background-position:center;
-    height: 560px;
+    height: 260px;
 }
 
 .part_2{
@@ -71,7 +71,7 @@
     color: #fe5551;
 }
 .buy_btn:hover{
-    background: url("/img/an-download-red-copy@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/an-download-red-copy@3x.png");
     background-size: 170px 45px;
     background-repeat: no-repeat;
     color: white;
@@ -93,7 +93,7 @@
     padding-bottom: 40px;
 }
 .download_btn{
-    background: url("/img/an-download-red-copy@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/an-download-red-copy@3x.png");
     background-size: 170px 45px;
     background-repeat: no-repeat;
     color: white;
@@ -138,7 +138,7 @@
     border:1px solid #f65378;
 }
 .download_btn{
-    background: url("/img/an-download-red@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/an-download-red@3x.png");
     background-size: 170px 45px;
     background-repeat: no-repeat;
     color: white;

@@ -1,11 +1,11 @@
 
 
 .part_1{
-    background: url("/img/bg-top-buy@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/bg-top-buy@3x.jpg");
     background-repeat:no-repeat;
     background-size: 100% 560px;
     background-position:center;
-    height: 560px;
+    height: 260px;
 }
 
 .part_2{

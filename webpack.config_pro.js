@@ -5,12 +5,12 @@ const CopyPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 var URL = require('url');
 
-const cdn_domain = 'blog.com';
+const cdn_domain = 'cdn.ranknowcn.com';
 
 
-    module.exports = {
+module.exports = {
     entry:{
-       index: './src/index.js',
+        index: './src/index.js',
     } ,
     output: {
         // filename: 'bundle.js',
@@ -25,7 +25,7 @@ const cdn_domain = 'blog.com';
             //         loader: 'html-loader',
             //     }],
             // },
-                {
+            {
                 test: /\.css$/,
                 use: [
                     {
@@ -38,8 +38,8 @@ const cdn_domain = 'blog.com';
                 //     fallback:"style-loader",
                 //     use:"css-loader"
                 // })
-             }
-       ],
+            }
+        ],
 
     },
     devServer: {

@@ -66,7 +66,7 @@ a{
     color: white;
 }
 .part_1 .title .title_span_login{
-    background: url("/img/bg-an-download-s@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/bg-an-download-s@3x.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
@@ -93,7 +93,7 @@ a{
 .part_1 .content{
     clear: both;
     color: white;
-    margin-top: 243px;
+    margin-top: 83px;
     font-size: 48px;
     text-align: center;
 }
@@ -153,7 +153,7 @@ a{
 }
 
 .download_btn{
-    background: url("/img/an-download-red@3x.png");
+    background: url("http://cdn.ranknowcn.com/img/an-download-red@3x.png");
     background-size: 170px 45px;
     background-repeat: no-repeat;
     color: white;

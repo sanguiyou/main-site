@@ -1,10 +1,10 @@
 
 .part_1{
-    background: url("/img/bg-top-help@2x.png");
+    background: url("http://cdn.ranknowcn.com/img/bg-top-help@2x.jpg");
     background-repeat:no-repeat;
     background-size: 100% 560px;
     background-position:center;
-    height: 560px;
+    height: 260px;
 }
 
 .part_2{
