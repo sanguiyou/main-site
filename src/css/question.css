@@ -19,10 +19,26 @@
     text-align: center;
     padding-bottom: 60px;
 }
-.part_3{
-    clear: both;
-    padding: 0px 22%;
-    padding-bottom: 40px;
+@media screen and (max-width: 1300px) {
+    .part_3{
+        clear: both;
+        padding: 0px 9%;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-width: 1677px) {
+    .part_3{
+        clear: both;
+        padding: 0px 22%;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1677px){
+    .part_3{
+        clear: both;
+        padding: 0px 15%;
+        padding-bottom: 40px;
+    }
 }
 .part_3_title{
     background: #d5eef3;
